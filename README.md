@@ -1,5 +1,19 @@
 # Frankys_Stuff Weather Card – v0.3.0
+## Vorschau
 
+### Aktuelles Wetter
+![Tagesansicht](vorschau-tagesansicht.png)
+
+### 7-Tage-Vorhersage
+![7-Tage-Vorschau](vorschau-7-tage.png)
+
+## Download
+
+[Weather Card herunterladen](https://github.com/Franz1302/frankys-stuff-weather-card/blob/main/frankys-stuff-weather-card.js)
+
+Die Installationsanleitung findest du weiter unten.
+
+☕ [Frankys_Stuff auf Ko-fi unterstützen](https://ko-fi.com/Frankys_Stuff)
 Eigenständige Home-Assistant-Lovelace-Wetterkarte im dunklen HUD-/Glasdesign mit **Tagesansicht**, **7-Tage-Vorschau**, **WebP-Wetterhintergründen** und **visuellem Karteneditor**.
 
 **Release-Status:** v0.3.0 – Veröffentlichungspaket. Die Installation wurde
