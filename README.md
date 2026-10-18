@@ -31,6 +31,15 @@ steht unter MIT. Siehe `LICENSE`, `LICENSE_SCOPE.md`, `ARTWORK_LICENSE.md` und `
 
 ## Installation
 
+### Installation über HACS als benutzerdefiniertes Repository
+
+1. In Home Assistant **HACS → ⋮ → Benutzerdefinierte Repositories** öffnen.
+2. `https://github.com/Franz1302/frankys-stuff-weather-card` hinzufügen und als Typ **Dashboard** auswählen.
+3. Das Repository in HACS öffnen und die Weather Card installieren.
+4. Das Dashboard neu laden.
+
+### Manuelle Installation
+
 1. `frankys-stuff-weather-card.js` nach `/config/www/frankys-stuff-weather-card.js` kopieren. Falls `www` neu angelegt wurde, Home Assistant neu starten.
 2. Im Home-Assistant-Dashboard unter **Ressourcen** eine Ressource des Typs **JavaScript-Modul** hinzufügen:
 
