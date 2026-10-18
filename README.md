@@ -1,4 +1,13 @@
 # Frankys_Stuff Weather Card – v0.3.0
+
+<p align="center">
+  <a href="https://ko-fi.com/Frankys_Stuff">
+    <img src="https://img.shields.io/badge/THANKS%20FOR%20THE%20COFFEE!-Support%20Frankys__Stuff-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Thanks for the coffee! Support Frankys_Stuff on Ko-fi">
+  </a>
+</p>
+
+[![HACS Custom Repository](https://img.shields.io/badge/HACS-Custom%20Repository-00AEEF?style=flat-square)](https://hacs.xyz/docs/faq/custom_repositories/)
+
 ## Vorschau
 
 ### Aktuelles Wetter
@@ -13,7 +22,6 @@
 
 Die Installationsanleitung findest du weiter unten.
 
-☕ [Frankys_Stuff auf Ko-fi unterstützen](https://ko-fi.com/Frankys_Stuff)
 Eigenständige Home-Assistant-Lovelace-Wetterkarte im dunklen HUD-/Glasdesign mit **Tagesansicht**, **7-Tage-Vorschau**, **WebP-Wetterhintergründen** und **visuellem Karteneditor**.
 
 **Release-Status:** v0.3.0 – Veröffentlichungspaket. Die Installation wurde
@@ -32,6 +40,8 @@ steht unter MIT. Siehe `LICENSE`, `LICENSE_SCOPE.md`, `ARTWORK_LICENSE.md` und `
 ## Installation
 
 ### Installation über HACS als benutzerdefiniertes Repository
+
+**Status (18.10.2026):** Das Repository ist für HACS als benutzerdefiniertes **Dashboard**-Repository vorbereitet. Ein eigener HACS-Installationstest wurde nicht durchgeführt; die manuelle Installation wurde getestet. Die Karte ist **nicht im offiziellen HACS-Katalog gelistet**.
 
 1. In Home Assistant **HACS → ⋮ → Benutzerdefinierte Repositories** öffnen.
 2. `https://github.com/Franz1302/frankys-stuff-weather-card` hinzufügen und als Typ **Dashboard** auswählen.
@@ -129,4 +139,4 @@ size: large
 
 Weitere Hinweise unter `THIRD_PARTY_NOTICES.md`, `QA_REPORT.md` und `RELEASE_STATUS.md`.
 
-**Veröffentlichung auf GitHub:** Den Inhalt dieses ZIP-Pakets unverändert in das Repository kopieren; `README.md` sollte auf der GitHub-Startseite sichtbar sein. Zusätzlich ein v0.3.0-Release mit dem JavaScript oder ZIP als Anhang erstellen. Der im GitHub-Repository auswählbare Standard-Lizenztyp **MIT** bezieht sich nur auf den Code; `ARTWORK_LICENSE.md` unbedingt mitveröffentlichen.
+**Veröffentlichungsstand:** GitHub-Release **v0.3.0** ist bereits veröffentlicht, und `hacs.json` liegt im Hauptzweig. Die MIT-Lizenz gilt für den Code; die eingebetteten Motive unterliegen zusätzlich `ARTWORK_LICENSE.md` (CC BY-NC 4.0).
